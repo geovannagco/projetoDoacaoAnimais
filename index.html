@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guardiões dos Animais</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="./imagens/gato-header.png" alt="gato-header" />
+    <form action="/action_page.php">
+      <h1>Guardiões dos Animais</h1>
+      <h2>Formulário de Doação</h2>
+      <div class="nomeCompleto">
+        <label for="nome">
+          <p>Nome Completo</p>
+        </label>
+        <input type="text" placeholder="Primeiro Nome" />
+        <input type="text" placeholder="Sobrenome" />
+      </div>
+
+      <div class="email">
+        <label for="email">
+          <p>E-mail</p>
+        </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="exemplo@exemplo.com"
+        />
+      </div>
+
+      <div class="valorDoacao">
+        <label for="doacao">
+          <p>Valor da Doação</p>
+        </label>
+        <input type="radio" name="dezReais" id="dezReais" />
+        <label for="dezReais">R$ 10.00</label>
+        <input type="radio" name="vinteReais" id="vinteReais" checked />
+        <label for="vinteReais">R$ 20.00</label>
+        <input type="radio" name="cinqReais" id="cinqReais" />
+        <label for="cinqReais">R$ 50.00</label>
+      </div>
+
+      <div>
+        <p>
+          <label for="listaTransmissao"
+            >Vocês gostaria de fazer parte da nossa lista de transmissão?</label
+          >
+        </p>
+        <label for="sim">Sim</label>
+        <input type="checkbox" name="sim" id="sim" checked />
+        <label for="nao">Não</label>
+        <input type="checkbox" name="nao" id="nao" />
+      </div>
+
+      <div class="comentarios">
+        <p><label for="comentarios">Comentários</label></p>
+        <textarea
+          name="comentarios"
+          id="comentarios"
+          maxlength="250"
+          placeholder="No máximo 250 caracteres..."
+        ></textarea>
+      </div>
+    </form>
+  </body>
+</html>
