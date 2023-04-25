@@ -1,1 +1,26 @@
+body {
+  background-color: #d9d1b8;
+}
 
+img {
+  margin: -31px auto;
+  display: block;
+  height: 190px;
+}
+
+.container {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.form {
+  background-color: #ffffff;
+  height: 510px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding: 0px 15px 10px 15px;
+  margin: -31px auto auto auto; /* margin 'auto' centralizou o formulário*/
+  border-radius: 10px;
+}
