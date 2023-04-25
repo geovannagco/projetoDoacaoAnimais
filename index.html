@@ -15,16 +15,18 @@
         <form action="/action_page.php">
           <h1>Guardiões dos Animais</h1>
           <h2>Formulário de Doação</h2>
+          
           <div class="nomeCompleto">
             <label for="nome">
-              <p>Nome Completo</p>
+              Nome Completo
             </label>
             <input type="text" placeholder="Primeiro Nome" />
             <input type="text" placeholder="Sobrenome" />
           </div>
+
           <div class="email">
             <label for="email">
-              <p>E-mail</p>
+              E-mail
             </label>
             <input
               type="email"
@@ -32,10 +34,10 @@
               id="email"
               placeholder="exemplo@exemplo.com"
             />
-          </div>
+          </div>  
+
           <div class="valorDoacao">
-            <label for="doacao">
-              <p>Valor da Doação</p>
+            <label for="doacao">Valor da Doação
             </label>
             <input type="radio" name="dezReais" id="dezReais" />
             <label for="dezReais">R$ 10.00</label>
@@ -44,19 +46,19 @@
             <input type="radio" name="cinqReais" id="cinqReais" />
             <label for="cinqReais">R$ 50.00</label>
           </div>
-          <div>
-            <p>
+          
+          <div class="listaTransmissao">
               <label for="listaTransmissao"
                 >Vocês gostaria de fazer parte da nossa lista de transmissão?</label
               >
-            </p>
             <label for="sim">Sim</label>
             <input type="checkbox" name="sim" id="sim" checked />
             <label for="nao">Não</label>
             <input type="checkbox" name="nao" id="nao" />
           </div>
+          
           <div class="comentarios">
-            <p><label for="comentarios">Comentários</label></p>
+            <label for="comentarios">Comentários</label>
             <textarea
               name="comentarios"
               id="comentarios"
@@ -64,6 +66,7 @@
               placeholder="No máximo 250 caracteres..."
             ></textarea>
           </div>
+          
           <div class="enviar">
             <button type="submit">Enviar</button>
           </div>
